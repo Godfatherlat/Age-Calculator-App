@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg,#4203a9,#90bafc);
+    background: linear-gradient(45deg,#4203a9,#90bafc,white);
     color: #92a;
     padding: 5rem;
 }
@@ -28,20 +28,56 @@
 .container h1{
     font-size: 60px;
     padding-left: 70px;
+    margin-left: 15px;
 }
 
 .calculator h1 span{
     color: rgb(22, 206, 114);
+    margin-left: 0px;
 }
 
 .input-box{
     margin: 90px;
     padding: 35px;
-    border-radius: 50px;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     border: 4px solid paleturquoise;
-   
-    background: rgb(206, 105, 237);
+    min-width: 15rem;
+    width: 20rem;
+    background: rgb(206, 105, 237,0.3);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border: 3px lightpink solid;
 }
+
+
+#cal_button{
+   margin: 5px;
+   padding: 0.1rem;
+   border-radius: .5rem;
+   border:5px rgb(50,25,50,0.5) solid;
+}
+
+#date{
+    margin: 5px;
+    padding: 0.1rem;
+    border: 3px groove rgb(247, 188, 110);
+    border-radius: .5rem;
+ }
+ 
+
+
+
+ /* .input-box input::-webkit-calender-picker-indicator{ 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: o;
+    width: auto;
+    position: absolute;
+    background-position: calc(100%-10%);
+    background-size: 30px;
+    cursor: pointer;
+    height: auto;
+ } */
